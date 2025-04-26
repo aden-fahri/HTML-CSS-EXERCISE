@@ -1,0 +1,188 @@
+.red-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px 0;
+}
+
+.green-circle {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  width: 250px;
+  margin: 20px 0;
+}
+
+.box p {
+  margin: 0 0 10px 0;/
+}
+
+.box button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.youtube-box {
+  border: none;
+  padding: 10px;
+  width: 380px;
+  background-color: black;
+  margin: 20px 0;
+  font-family: Arial;
+}
+
+.teks-besar {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.teks-kecil {
+  font-size: 17px;
+  color: gray;
+}
+
+
+.card {
+  display: inline-block;
+  width: 200px;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid rgb(196, 193, 193);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-family: arial;
+}
+
+.card p {
+  margin: 5px 0;
+  color: gray;
+  font-family: arial;
+}
+
+.card button {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: rgba(10, 102, 146);
+}
+
+.tw-box {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profil {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.what {
+  border: none;
+  background: none;
+  font-size: 16px;
+  width: 250px;
+  vertical-align: middle;
+  outline: none;
+}
+
+.btn-tw {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-tw:hover {
+  background-color: rgb(22, 133, 245);
+}
+
+.foto {
+  margin-top: 100px;
+  margin-left: 150px;
+  height: 80px;
+}
+
+.search {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.search-button {
+  background: gainsboro;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.search-button1 {
+  background: gainsboro;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.search-button:hover {
+  background-color: rgba(108, 117, 125);
+  color: white;
+}
+
+.search-button1:hover {
+  background-color: rgba(108, 117, 125);
+  color: white;
+}

@@ -1,0 +1,63 @@
+body {
+  height: 3000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+}
+
+header .bunga {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+header .name {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 900px;
+}
+
+header .btn-tw {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+header .btn-tw:hover {
+  background-color: rgb(22, 133, 245);
+}
+
+header .btn-msg {
+  background-color: rgba(108, 117, 125);
+  color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 120px;
+
+}
+
+header .btn-msg:hover {
+  background-color: white;
+  color: rgba(108, 117, 125);
+}

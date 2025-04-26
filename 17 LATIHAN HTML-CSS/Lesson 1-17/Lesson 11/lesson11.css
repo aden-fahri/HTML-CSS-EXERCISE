@@ -1,0 +1,112 @@
+.grid-11a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  gap: 10px;
+}
+
+.grid-11a .item {
+  text-align: left;
+  padding: 5px;
+}
+
+.grid-11a .item:nth-child(1) {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.grid-11a .item:nth-child(2) {
+  background-color: lightcoral;
+  width: 75px;
+}
+
+.grid-11b {
+  display: grid;
+  grid-template-columns: 50px 400px 75px;
+}
+
+.grid-11b .item {
+  text-align: left;
+  padding: 5px;
+}
+
+.grid-11b .item:nth-child(1) {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.grid-11b .item:nth-child(2) {
+  background-color: lightcoral;
+  flex-grow: 1;
+}
+
+.grid-11b .item:nth-child(3) {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.grid-11c {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 10px;
+}
+
+.grid-11c .item {
+  background-color: lightcoral;
+  text-align: left;
+  padding: 5px;
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  display: inline-block;
+  width: 200px;
+  background-color: white;
+  border: 1px solid rgb(196, 193, 193);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.card2 img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card2 h3 {
+  margin: 10px 0 5px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.card2 p {
+  margin: 5px 0;
+  color: gray;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.card2 button {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card2 button:hover {
+  background-color: rgba(10, 102, 246);
+}

@@ -1,0 +1,36 @@
+h3 {
+  color: white;
+}
+body {
+  height: 3000px;
+}
+.sticky-element {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 50%;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: -9999;
+}

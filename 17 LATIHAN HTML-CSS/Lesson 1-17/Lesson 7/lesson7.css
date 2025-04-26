@@ -1,0 +1,117 @@
+.rounded {
+  border-radius: 10px;
+  width: 200px;
+}
+
+.square {
+  width: 195px;
+  height: 195px;
+  object-fit: cover;
+  display: block;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search {
+  font-size: 16px;
+  width: 400px;
+  border-style: solid;
+  border-color: whitesmoke;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.type-url {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  margin-bottom: 5px;
+  font-family: arial;
+  color: gray;
+}
+
+.email {
+  border-radius: 6px;
+  padding: 10px 3px;
+  width: 400px;
+  border: 1px solid;
+}
+
+.teks {
+  color: gray;
+  font-family: arial;
+  margin-left: 5px;
+}
+
+.agree {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 10px 155px;
+  margin: 5px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.agree:active {
+  background-color: rgb(20, 81, 141);
+}
+
+.profil {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.tw-box {
+  display: inline-block;
+  border-radius: 7px;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid rgb(216, 219, 219); 
+}
+
+.what {
+  border: none;
+  background: none;
+  font-size: 16px;
+  width: 250px;
+  vertical-align: middle;
+  outline: none;
+}
+
+.tw {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.tw:hover {
+  background-color: rgb(22, 133, 245);
+}

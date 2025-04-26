@@ -1,0 +1,101 @@
+.block {
+  display: block;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.img {
+  margin-top: 70px;
+  margin-left: 65px;
+  margin-bottom: 8px;
+}
+
+.search {
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.nama {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px ;
+  border-color: gray;
+  width: 148;
+}
+
+.email {
+  display: block;
+  border-radius: 6px;
+  border: 1px solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 205px;
+  padding-left: 10px;
+  border-color: gray;
+  margin-top: 5px;
+}
+
+.sign-up {
+  background-color: rgba(10, 102, 194);
+  color: white;
+  border: none;
+  padding: 10px 166px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: rgba(10, 102, 146);
+}
+
+.enter {
+  background-color: gainsboro;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 90px;
+  padding-left: 5px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.request-now {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 25px;
+  cursor: default;
+}
+
+.request-now:hover {
+  opacity: 0.5;
+}
+
+.later {
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 25px;
+  cursor: default;
+}
+
+.later:hover {
+  opacity: 0.5;
+}

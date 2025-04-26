@@ -1,0 +1,219 @@
+.flex-container-13a {
+  display: flex;
+  border: none;
+}
+
+.flex-container-13a p {
+  background-color: black;
+  color: white;
+}
+
+.flex-container-13a div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-13a div:nth-child(2) {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+.flex-container-13b {
+  display: flex;
+  border: none;
+}
+
+.flex-container-13b > div:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-container-13b > div:nth-child(2) {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.row2 {
+  flex: 1;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.row2 p {
+  background-color: black;
+  color: white;
+  height: 20px;
+  width: 40px;
+  margin-top: 0;
+}
+.inbox-container-13c {
+  width: 400px;
+  height: 115px;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inbox-container-13c h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.bunga {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.email-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.email-time {
+  color: gray;
+  font-size: 12px;
+}
+
+.email-text {
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.email-text p {
+  color: gray;
+  font-size: 12px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.inbox-container-13d {
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.inbox-container-13d h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: gray;
+}
+
+.tweet {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-picture {
+  margin-right: 10px;
+}
+
+.profile-picture-tw {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.container-tweet {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.user-tweet {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.user-acount {
+  color: rgb(111, 111, 111);
+}
+
+.tweet-content {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.preview-link {
+  flex: 1;
+}
+
+.website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.title {
+  line-height: 22px;
+}
